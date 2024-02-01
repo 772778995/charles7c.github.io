@@ -1,6 +1,6 @@
 ---
 title: 个人 SQL 优化技巧
-author: 查尔斯
+author: Hocho
 date: 2019/12/28 10:00
 isTop: true
 categories:
