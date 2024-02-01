@@ -23,7 +23,7 @@ tags:
 1. 修改最后一次提交的作者和邮箱信息
 
    ```sh
-   git commit --amend --author="Charles7c <charles7c@126.com>"
+   git commit --amend --author="Hocho <charles7c@126.com>"
    ```
 
 2. 最后将本地的修改强制推送到远程仓库即可（如果你没推送到远程仓库，这步就不需要执行了）

@@ -31,7 +31,7 @@ tags:
 
 ```sh
 # 全局配置用户名
-git config --global user.name "Charles7c"
+git config --global user.name "Hocho"
 # 全局配置邮箱
 git config --global user.email "charles7c@126.com"
 ```
@@ -44,7 +44,7 @@ git config --global user.email "charles7c@126.com"
 # 进入指定 Git 仓库
 cd HelloWorld
 # 局部配置用户名
-git config user.name "Charles7c"
+git config user.name "Hocho"
 # 局部配置邮箱
 git config user.email "charles7c@126.com"
 ```

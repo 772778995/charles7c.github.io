@@ -26,7 +26,7 @@ Eclipse 中是 `Alt + Shift+S > R`，IntelliJ IDEA 中是 `[FN] + Alt+Insert > G
 ```java
 /**
  * 宠物类
- * @author Charles7c
+ * @author Hocho
  * @date 2020-01-14
  */
 public class Pet {
@@ -93,7 +93,7 @@ Lombok 是一个 Java 库，这个库提供了很多注解，这些注解会在�
 ```java
 /**
  * 宠物类
- * @author Charles7c
+ * @author Hocho
  * @date 2020-01-14
  */
 @Data

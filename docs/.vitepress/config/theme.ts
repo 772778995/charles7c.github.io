@@ -63,6 +63,6 @@ export const themeConfig: DefaultTheme.Config = {
     icpRecordCode: '粤ICP备2021034531号-2', // ICP备案号
     // publicSecurityRecordCode: '津公网安备12011202000677号', // 联网备案号
     publicSecurityRecordCode: '', // 联网备案号
-    copyright: `Copyright © 2021-${new Date().getFullYear()} Charles7c` // 版权信息
+    copyright: `Copyright © 2021-${new Date().getFullYear()} Hocho` // 版权信息
   }
 }

@@ -19,7 +19,7 @@ tags:
 /**
  * JDBC，模拟登录示例
  *
- * @author Charles7c
+ * @author Hocho
  * @date 2021/12/11 22:51
  */
 public class JdbcLoginDemo {
@@ -137,7 +137,7 @@ PreparedStatement 的对象包含了编译好的 SQL 语句。这种 “准备�
 /**
  * JDBC，模拟登录示例
  *
- * @author Charles7c
+ * @author Hocho
  * @date 2021/12/11 22:51
  */
 public class JdbcLoginDemo2 {

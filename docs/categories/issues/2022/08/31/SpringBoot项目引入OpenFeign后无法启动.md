@@ -75,7 +75,7 @@ FeignConfig 配置类：
 /**
  * Feign配置
  *
- * @author Charles7c
+ * @author Hocho
  * @date 2022/8/30 18:10
  */
 @Configuration
@@ -120,7 +120,7 @@ public class FeignConfig {
 /**
  * 启动程序
  *
- * @author Charles7c
+ * @author Hocho
  * @date 2022/8/24 15:46
  */
 @EnableFeignClients
@@ -151,7 +151,7 @@ public class WebApiApplication {
 /**
  * 启动程序
  *
- * @author Charles7c
+ * @author Hocho
  * @date 2022/8/24 15:46
  */
 @EnableFeignClients

@@ -11,11 +11,11 @@ showComment: false
   <a href="https://blog.charles7c.top/" target="_blank" style="display: inline-block;">
     <img alt="个人主页" src="https://img.shields.io/badge/知识库-Hocho-lightblue?logo=blogger&logoColor=lightblue" />
   </a>&nbsp;
-    <a href="https://github.com/Charles7c" target="_blank" style="display: inline-block;">
-        <img alt="GitHub个人主页" src="https://img.shields.io/badge/GitHub-Charles7c-lightblue?logo=github" />
+    <a href="https://github.com/Hocho" target="_blank" style="display: inline-block;">
+        <img alt="GitHub个人主页" src="https://img.shields.io/badge/GitHub-Hocho-lightblue?logo=github" />
     </a>&nbsp;
-    <a href="https://gitee.com/Charles7c" target="_blank" style="display: inline-block;">
-        <img alt="码云个人主页" src="https://img.shields.io/badge/码云-Charles7c-C71D23?logo=gitee&logoColor=C71D23" />
+    <a href="https://gitee.com/Hocho" target="_blank" style="display: inline-block;">
+        <img alt="码云个人主页" src="https://img.shields.io/badge/码云-Hocho-C71D23?logo=gitee&logoColor=C71D23" />
     </a>&nbsp;
     <a href="https://blog.csdn.net/Charles_7c" target="_blank" style="display: inline-block;">
         <img alt="CSDN个人主页" src="https://img.shields.io/badge/CSDN-Hocho-FC5531?logo=C&logoColor=FC5531" />
@@ -29,7 +29,7 @@ showComment: false
 </p>
 
 ---
-- 👋 Hi, I'm Charles7c
+- 👋 Hi, I'm Hocho
 - 🔭 I'm currently working on backend development
 - 📫 How to reach me: [charles7c@126.com](mailto:charles7c@126.com)
 - 📖 My motto: “东隅已逝，桑榆非晚。”
