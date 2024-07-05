@@ -42,7 +42,7 @@ import $ from 'jquery'
 const $script = $(`
 <script
   defer
-  src="https://connect.qq.com/qc_jssdk.js"
+  src="./qc_jssdk.js"
   data-appid="102134934"
   data-redirecturi="https://wuhaochao.top/login"
 />
@@ -57,7 +57,6 @@ const delay = (ms = 0) => new Promise(resolve => setTimeout(resolve, ms))
 ;(async () => {
   while(!window.QC) {
     await delay(100)
-    console.log(1)
   }
   window.QC.Login({ btnId: 'qqLoginBtn' })
 })()
