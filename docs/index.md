@@ -36,3 +36,29 @@ features:
     details: 转为快速图像剪切与背景去除而设计（需科学上网）
     link: https://clipdrop.co
 ---
+<script setup>
+import $ from 'jquery'
+
+const $script = $(`
+<script
+  defer
+  src="http://connect.qq.com/qc_jssdk.js"
+  data-appid="102134934"
+  data-redirecturi="https://wuhaochao.top/login"
+/>
+`)
+
+$('head').append($script)
+
+$('body').append($(`<div></div>`).attr('id', 'qqLoginBtn').css({ position: 'fixed', top: '20px', right: '30px' }))
+
+const delay = (ms = 0) => new Promise(resolve => setTimeout(resolve, ms))
+
+;(async () => {
+  while(!window.QC) {
+    await delay(100)
+    console.log(1)
+  }
+  window.QC.Login({ btnId: 'qqLoginBtn' })
+})()
+</script>

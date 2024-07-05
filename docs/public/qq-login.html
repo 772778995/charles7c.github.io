@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="margin: 0; height: 100%;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="text/javascript"  charset="utf-8"
-      src="http://connect.qq.com/qc_jssdk.js"
-      data-appid="102132332"
-      data-redirecturi="https://wuhaochao.top/login"
-    ></script>
   </head>
-  <body style="margin: 0;">
-      <span id="qqLoginBtn">1234</span>
-  </body>
 </html>
 <script type="text/javascript">
-  QC.Login({
-     btnId:"qqLoginBtn"	//插入按钮的节点id
-});
+  const client_id = '102132332'
+  const response_type = 'token'
+  const redirect_uri = encodeURIComponent('https://wuhaochao.top/login')
+  const baseUrl = 'https://graph.qq.com/oauth2.0/authorize'
+  const url = `${baseUrl}?client_id=${client_id}&response_type=${response_type}&scope=all&redirect_uri=${redirect_uri}`
+  document.querySelector('html').addEventListener('click', () => {
+    return window.open(
+      url,
+      'oauth2Login_10117',
+      'height=525,width=685, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes'
+    )
+  })
 </script>
