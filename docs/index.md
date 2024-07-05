@@ -42,7 +42,7 @@ import $ from 'jquery'
 const $script = $(`
 <script
   defer
-  src="http://connect.qq.com/qc_jssdk.js"
+  src="https://connect.qq.com/qc_jssdk.js"
   data-appid="102134934"
   data-redirecturi="https://wuhaochao.top/login"
 />
