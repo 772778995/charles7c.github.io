@@ -45,7 +45,7 @@ const redirect_uri = encodeURIComponent('https://wuhaochao.top/login')
 const baseUrl = 'https://graph.qq.com/oauth2.0/authorize'
 const url = `${baseUrl}?client_id=${client_id}&response_type=${response_type}&scope=all&redirect_uri=${redirect_uri}`
 
-$('body').append($(`<img src="https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Connect_logo_7.png">`).css({ position: 'fixed', top: '20px', right: '30px', cursor: 'pointer' }).on('click', () => {
+$('body').append($(`<img src="https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Connect_logo_7.png">`).css({ position: 'fixed', top: '20px', right: '120px', cursor: 'pointer' }).on('click', () => {
   window.open(
     url,
     'oauth2Login_10117',
