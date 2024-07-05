@@ -39,25 +39,17 @@ features:
 <script setup>
 import $ from 'jquery'
 
-const $script = $(`
-<script
-  defer
-  src="./qc_jssdk.js"
-  data-appid="102134934"
-  data-redirecturi="https://wuhaochao.top/login"
-/>
-`)
+const client_id = '102134934'
+const response_type = 'token'
+const redirect_uri = encodeURIComponent('https://wuhaochao.top/login')
+const baseUrl = 'https://graph.qq.com/oauth2.0/authorize'
+const url = `${baseUrl}?client_id=${client_id}&response_type=${response_type}&scope=all&redirect_uri=${redirect_uri}`
 
-$('head').append($script)
-
-$('body').append($(`<div></div>`).attr('id', 'qqLoginBtn').css({ position: 'fixed', top: '20px', right: '30px' }))
-
-const delay = (ms = 0) => new Promise(resolve => setTimeout(resolve, ms))
-
-;(async () => {
-  while(!window.QC) {
-    await delay(100)
-  }
-  window.QC.Login({ btnId: 'qqLoginBtn' })
-})()
+$('body').append($(`<img src="https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Connect_logo_7.png">`).css({ position: 'fixed', top: '20px', right: '30px', cursor: 'pointer' }).on('click', () => {
+  window.open(
+    url,
+    'oauth2Login_10117',
+    'height=525,width=685, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes'
+  )
+}))
 </script>
