@@ -36,20 +36,3 @@ features:
     details: 转为快速图像剪切与背景去除而设计（需科学上网）
     link: https://clipdrop.co
 ---
-<script setup>
-import $ from 'jquery'
-
-const client_id = '102134934'
-const response_type = 'code'
-const redirect_uri = encodeURIComponent('https://wuhaochao.top/login')
-const baseUrl = 'https://graph.qq.com/oauth2.0/authorize'
-
-$('body').append($(`<img src="https://qzonestyle.gtimg.cn/qzone/vas/opensns/res/img/Connect_logo_7.png">`).css({ position: 'fixed', top: '20px', right: '120px', cursor: 'pointer' }).on('click', () => {
-  const url = `${baseUrl}?client_id=${client_id}&response_type=${response_type}&scope=all&redirect_uri=${redirect_uri}&state=${Date.now()}`
-  window.open(
-    url,
-    'oauth2Login_10117',
-    'height=525,width=685, toolbar=no, menubar=no, scrollbars=no, status=no, location=yes, resizable=yes'
-  )
-}))
-</script>
