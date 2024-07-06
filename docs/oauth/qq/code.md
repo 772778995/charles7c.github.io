@@ -3,8 +3,10 @@ layout: false
 ---
 <script setup>
 const params = new URLSearchParams(location.hash)
-const token = params.get('#access_token')
-const state = params.get('state')
-console.log(location.hash, params, token, state)
-open(`https://graph.qq.com/oauth2.0/me?access_token=${token}&fmt=json`)
+const access_token = params.get('#access_token')
+const redirect_uri = params.get('state')
+const redirectUrl = new URL(redirect_uri)
+const redirectParams = new URLSearchParams(`?access_token=${access_token}`)
+redirectUrl.search = redirectParams.toString()
+window.href = redirectUrl.href
 </script>
