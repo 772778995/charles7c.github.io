@@ -1,5 +1,7 @@
 ---
 layout: false
+title: 登陆中……
+titleTemplate: QQ Ouath
 ---
 <script setup>
 const params = new URLSearchParams(location.hash)
